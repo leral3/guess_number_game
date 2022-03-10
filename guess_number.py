@@ -7,5 +7,7 @@ while True:
         print("정답입니다.")
         break                                 # 정답이면, 루프 문을 빠져 나갑니다.   
     
+    elif guess > number:                      # 정답이 아니면 입력한 값의 크기를 판단합니다.
+        print("입력하신 값이 더 큽니다.")
     else:
-        print("오답입니다.")
+        print("입력하신 값이 더 작습니다.")
