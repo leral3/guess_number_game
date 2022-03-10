@@ -1,4 +1,8 @@
-number = 35
+import random
+
+number = random.randint(1,999)                # 정답을 랜덤으로 생성하기 
+print(number)
+
 
 while True:
     guess = int(input("숫자를 입력하세요:"))   # input으로 입력받은 숫자의 데이터 타입은 문자열이므로 이를 정수형으로 변환해야함
