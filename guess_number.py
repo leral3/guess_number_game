@@ -19,5 +19,6 @@ while True:
             print("모든 기회를 다 사용하셨어요 정답은 {} 입니다.".format(number))
             break
         chance += 1
+        
     except:
         print("1~999 사이의 숫자를 입력하세요")
